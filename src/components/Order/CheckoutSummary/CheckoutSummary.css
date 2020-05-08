@@ -1,0 +1,25 @@
+.CheckoutSummary{
+    text-align: center;
+    width:80%;
+    margin:auto;
+    height:680px;
+}
+.Burger {
+    height:450px;
+}
+@media (max-width:400px){
+    .Burger{
+        height:250px;
+    }
+    .CheckoutSummary{
+        height:450px;
+    }
+}
+@media (min-width:700px){
+    .CheckoutSummary{
+            width:100%;
+    }
+    .Burger{
+        height:550px;
+    }
+}

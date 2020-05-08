@@ -1,0 +1,21 @@
+.BurgerBuilder {
+    display:flex;
+    flex-flow: column;
+    width:100%;
+    /* flex:1 1 auto; */
+}
+
+
+@media (min-width:550px) {
+    .BurgerBuilder{
+        display:flex;
+        min-height:100% !important;
+        height:100vh !important;
+        flex-direction:row;
+        align-items:stretch;
+        align-content:stretch
+        /* align-items: center; */
+        
+        /* justify-content: space-around; */
+    }
+}
